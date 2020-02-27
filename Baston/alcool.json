@@ -1,0 +1,71 @@
+{
+    "1" : {
+        "nom":"biere",
+        "image":"biere",
+        "red":0,
+        "green":96,
+        "blue":128,
+        "list": {
+         "heineken":{
+            "nom":"heineken",
+            "alcool":"5,5",
+            "image":"heineken"
+         },
+         "leffe":{
+            "nom":"leffe",
+            "alcool":"6",
+            "image":"leffe"
+         },
+         "1664":{
+             "nom":"1664",
+             "alcool":"6",
+             "image":"1664"
+         },
+         "aaa":{
+            "nom":"heineken",
+            "alcool":"5,5",
+            "image":"vodka"
+         },
+         "bbb":{
+            "nom":"desperados",
+            "alcool":"6",
+            "image":"desperados"
+         },
+         "ccc":{
+             "nom":"1664",
+             "alcool":"6",
+             "image":"vodka"
+         },
+         "ddd":{
+            "nom":"leffe",
+            "alcool":"6",
+            "image":"vodka"
+        },
+         "eee":{
+             "nom":"1664",
+             "alcool":"6",
+             "image":"vodka"
+         }
+        }
+    },
+"2" : {
+        "nom":"vodka",
+        "image":"vodka",
+        "red":0,
+        "green":96,
+        "blue":128,
+        "list": {
+         "poliakov":{
+                "nom":"poliakov",
+                "alcool":"35",
+                "image":"vodka"
+            },
+         "absolutvodka":{
+                "nom":"absolutvodka",
+                "alcool":"40",
+                "image":"vodka"
+            }
+         }
+    },
+}
+
