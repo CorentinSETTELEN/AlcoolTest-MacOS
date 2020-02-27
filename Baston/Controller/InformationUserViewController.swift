@@ -103,9 +103,10 @@ class InformationUserViewController: UIViewController {
         label.sizeToFit()
         newView.addSubview(label)
         
-        // let image = UIImage(frame: CGRect(x: 0, y: 100, width: 1, height: 1))
-        // image.sizeToFit()
-        // newView.addSubview(image)
+        let image  = UIImageView(frame:CGRect(x: newView.frame.size.width - 100, y: 0, width: 0, height: 0))
+        image.image = UIImage(named:alcool.image)
+        image.sizeToFit()
+        newView.addSubview(image)
         
         // view.isUserInteractionEnabled = true
         
